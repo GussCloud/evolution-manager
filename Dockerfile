@@ -7,6 +7,6 @@ RUN npm install -g vite
 
 RUN ln -s /usr/local/bin/node /usr/bin/node
 
-ENTRYPOINT ["npx", "evolution-manager", "server", "start"] 
+ENTRYPOINT ["npx", "evolution-manager-gtech", "server", "start"] 
 
 EXPOSE 9615
